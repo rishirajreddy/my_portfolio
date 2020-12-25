@@ -1,0 +1,70 @@
+:root {
+    --mainText :white;
+    --mainColor: #343434;
+    --borderColor: #c1c1c1;
+    --secondaryText: white;
+    --secondaryColor: #444444;
+}
+.left-column h5 {
+    color: white;
+}
+#preview {
+    background-color: #525252;
+}
+#preview h4{
+    color: white;
+}
+#preview p {
+    color: white;
+}
+.more-about {
+    color: white;
+}
+.skills {
+    background-color: #525252;
+}
+.s3  {
+    background-color: #444444;
+}
+.social-links h4 {
+    color: white;
+}
+.post-preview {
+    background-color: #525252;
+}
+.post-preview h4 {
+    color: white;
+}
+.post-preview p {
+    color: whitesmoke;
+}
+#pro-heading {
+    color: white;
+}
+.s4 {
+    background-color: #343434;
+}
+.s4 h4 {
+    color: white;
+}
+#contact-form {
+    background-color: #444444;
+}
+.input-field {
+    background-color: #343434;
+}
+#submit-btn {
+    background-color: #1c68db;
+}
+#submit-btn:hover {
+    background-color: #5993ea;
+}
+#light-mode {
+    background-color: white;
+}
+#dark-mode {
+    border-color: white;
+}
+footer {
+    color: white;
+}
