@@ -45,6 +45,9 @@ a:hover {
     border-bottom: 1px solid var(--borderColor);
     overflow: auto;
 }
+h4,h3 {
+    font-weight: 300;
+}
 .s3 {
     background-color: var(--mainColor);
     overflow: auto;
@@ -208,6 +211,18 @@ a:hover {
 }
 .skills li {
     list-style: none;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 1.5px;
+    border: 3px solid grey;
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+.skills li:hover {
+    cursor: default;
+    box-shadow: 0px 2px 10px 3px rgba(117,113,113,0.43);
+-webkit-box-shadow: 0px 2px 10px 3px rgba(117,113,113,0.43);
+-moz-box-shadow: 0px 2px 10px 3px rgba(117,113,113,0.43);
 }
 .social-links {
     display: grid;
@@ -251,6 +266,10 @@ transform: scale(1.075) ;
        color: #4b5156;
     margin: 0;
     font-size: 16px;
+}
+
+.post-preview div {
+    padding: 0 5px 20px;
 }
 
 .thumbnail {
